@@ -1,31 +1,3 @@
-# Arabic-fluent-
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>دورة تعلم اللغة العربية بطلاقة</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <h1>تحدث العربية مثل العرب تماما!</h1>
-    <p>البساطة .. المرح ..التعلم باللعب.</p>
-    <button>اشترك الآن</button>
-  </header>
-  <section>
-    <h2>المزايا</h2>
-    <ul>
-      <li>ميزة 1</li>
-      <li>ميزة 2</li>
-      <li>ميزة 3</li>
-    </ul>
-  </section>
-  <footer>
-    <p>© 2024 جميع الحقوق محفوظة.</p>
-  </footer>
-</body>
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -74,4 +46,34 @@ footer {
     alert('شكراً لتسجيلك!');
   });
 </script>
+
+
+
+# العربية بطلاقة -
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>دورة تعلم اللغة العربية بطلاقة</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>تحدث العربية مثل العرب تماما!</h1>
+    <p>البساطة .. القوة ..السرعة في التعلم </p>
+    <button>اشترك الآن</button>
+  </header>
+  <section>
+    <h2>المزايا</h2>
+    <ul>
+      <li>عدد ساعات مناسبة لك 1</li>
+      <li>مجتمع من المتحدثين الجدد بالعربية 2</li>
+      <li>معلمين محترفين وذو خبرات عالية 3</li>
+    </ul>
+  </section>
+  <footer>
+    <p>© 2024 جميع الحقوق محفوظة.</p>
+  </footer>
+</body>
 </html>
