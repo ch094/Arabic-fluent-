@@ -5,13 +5,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>صفحة الهبوط</title>
+  <title>دورة تعلم اللغة العربية بطلاقة</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>عنوان جذاب</h1>
-    <p>وصف قصير يبرز القيمة المضافة.</p>
+    <h1>تحدث العربية مثل العرب تماما!</h1>
+    <p>البساطة .. المرح ..التعلم باللعب.</p>
     <button>اشترك الآن</button>
   </header>
   <section>
