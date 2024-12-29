@@ -1,5 +1,4 @@
 # Arabic-fluent-
- Arabic fluent course 
 <!DOCTYPE html>
 <html lang="ar">
 <head>
@@ -26,7 +25,7 @@
     <p>© 2024 جميع الحقوق محفوظة.</p>
   </footer>
 </body>
-</html>
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -75,3 +74,4 @@ footer {
     alert('شكراً لتسجيلك!');
   });
 </script>
+</html>
