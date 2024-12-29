@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>دورة تعلم اللغة العربية بطلاقة</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background: #007bff;
+      color: white;
+      padding: 50px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    header button {
+      padding: 10px 20px;
+      font-size: 1em;
+      background: #ffc107;
+      border: none;
+      cursor: pointer;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    footer {
+      background: #f1f1f1;
+      padding: 10px 0;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    form input {
+      padding: 10px;
+      font-size: 1em;
+      width: 250px;
+    }
+
+    form button {
+      padding: 10px 20px;
+      font-size: 1em;
+      background: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>تحدث العربية مثل العرب تماما!</h1>
+    <p>>البساطة .. القوة .. السرعة في التعلم ..</p>
+    <button onclick="alert('شكراً لتفاعلك!')">اشترك الآن</button>
+  </header>
+  <section>
+    <h2>المزايا</h2>
+    <ul>
+      <li>عدد ساعات مناسبة لك</li>
+      <li>مجتمع من المتحدثين الجدد بالعربية</li>
+      <li>معلمين محترفين وذو خبرات عالية </li>
+    </ul>
+    <form id="subscribe-form">
+      <input type="email" placeholder="أدخل بريدك الإلكتروني" required>
+      <button type="submit">اشترك</button>
+    </form>
+  </section>
+  <footer>
+    <p>© 2024 جميع الحقوق محفوظة.</p>
+  </footer>
+
+  <script>
+    document.getElementById('subscribe-form').addEventListener('submit', function(event) {
+      event.preventDefault();
+      alert('شكراً لتسجيلك!');
+    });
+  </script>
+</body>
+</html>
 
