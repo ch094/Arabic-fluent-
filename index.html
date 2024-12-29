@@ -6,78 +6,132 @@
   <title>دورة تعلم اللغة العربية بطلاقة</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Tahoma', Arial, sans-serif;
       margin: 0;
       padding: 0;
+      line-height: 1.6;
       text-align: center;
     }
 
     header {
-      background: #007bff;
-      color: beige;
-      padding: 50px 20px;
+      background: linear-gradient(to right, #007bff, #0056b3);
+      color: #fefefe;
+      padding: 60px 20px;
+      position: relative;
     }
 
     header h1 {
-      font-size: 2.5em;
+      font-size: 3em;
+      margin-bottom: 10px;
     }
 
     header p {
       font-size: 1.2em;
+      margin-bottom: 20px;
     }
 
     header button {
-      padding: 10px 20px;
-      font-size: 1em;
+      padding: 15px 25px;
+      font-size: 1.1em;
       background: #ffc107;
+      color: #333;
       border: none;
+      border-radius: 5px;
       cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    header button:hover {
+      background: #e0a800;
+    }
+
+    header img {
+      position: absolute;
+      top: 50%;
+      right: 20px;
+      transform: translateY(-50%);
+      max-width: 150px;
+      border-radius: 50%;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     }
 
     section {
-      padding: 20px;
+      padding: 40px 20px;
+    }
+
+    section h2 {
+      font-size: 2em;
+      color: #007bff;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      font-size: 1.2em;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f9f9f9;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    form {
+      margin-top: 30px;
+    }
+
+    form input {
+      padding: 12px;
+      font-size: 1.1em;
+      width: 300px;
+      max-width: 90%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    form button {
+      padding: 12px 25px;
+      font-size: 1.1em;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    form button:hover {
+      background: #0056b3;
     }
 
     footer {
       background: #f1f1f1;
-      padding: 10px 0;
-    }
-
-    form {
-      margin-top: 20px;
-    }
-
-    form input {
-      padding: 10px;
-      font-size: 1em;
-      width: 250px;
-    }
-
-    form button {
-      padding: 10px 20px;
-      font-size: 1em;
-      background: #007bff;
-      color: white;
-      border: none;
-      cursor: pointer;
+      padding: 20px 0;
+      color: #333;
+      font-size: 0.9em;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>تحدث العربية مثل العرب تماما!</h1>
-    <p>>البساطة .. القوة .. السرعة في التعلم ..</p>
+    <h1>تحدث العربية مثل العرب تمامًا!</h1>
+    <p> .. البساطة .. القوة .. السرعة في التعلم</p>
     <button onclick="alert('شكراً لتفاعلك!')">اشترك الآن</button>
+    <img src="https://github.com/ch094/Arabic-fluent-/blob/c6c33fa3111ad43ee6978cd73c6e4971b233f00a/1.jpg">
   </header>
   <section>
     <h2>المزايا</h2>
     <ul>
-      <li>عدد ساعات مناسبة لك</li>
+      <li>ساعات تعليمية مرنة</li>
       <li>مجتمع من المتحدثين الجدد بالعربية</li>
-      <li>معلمين محترفين وذو خبرات عالية </li>
+      <li>معلمون محترفون وذوو خبرات عالية</li>
     </ul>
     <form id="subscribe-form">
-      <input type="email" placeholder="ch094@lms.mediu.edu.my" required>
+      <input type="email" placeholder="أدخل بريدك الإلكتروني" required>
       <button type="submit">اشترك</button>
     </form>
   </section>
@@ -93,4 +147,3 @@
   </script>
 </body>
 </html>
-
